@@ -80,16 +80,15 @@ ingen är inloggad, då GetRelLine inte tar hänsyn till detta.
 
 OBS!! Innan något program startas, se till att stacken är tillräckligt
 hög. NiKom kräver minst ca 30000 i stack. Har man gott om minne kan man
-gärna klämma till med 50000.
+gärna klämma till med 50000 eller rent av 100000.
 Stacken ställer man in med CLI-kommandot 'Stack'. Ex:
 
-1> stack 50000
-1> run NiKServer
+1> Stack 100000
+1> Run NiKServer
  <bla bla bla>
-1> run Prenode
+1> Run Prenode
 
-
-Först startar man alltså servern med "run NiKServer". När denna är klar och
+Först startar man alltså servern med "Run NiKServer". När denna är klar och
 har läst in alla sina filer så startar man en eller flera noder. Varje nod
 öppnar sitt eget fönster på serverns skärm. Här kan man se allt som händer
 precis som det ser ut "på andra sidan". Man kan även skriva i ett fönster
@@ -115,7 +114,6 @@ logga ut med kommandona 'sluta' eller 'logout'.
 Detta kan dock vara praktiskt om man själv som sysop vill logga in bara för
 att kolla någon sak. Om man stänger fönstret kommer det inte heller synas i
 listan över de senast inloggade att man var inne.
-
 
 
 
@@ -146,6 +144,7 @@ kommandot 'Lista Kommandon'
 Det är inte bara kommandon som kan förkortas, utan även användarnamn,
 mötesnamn, gruppnamn, filnamn etc. Dvs, nästan allt kan förkortas. För
 användare går det även bra att skriva användarnumret om man vill det.
+
 
 Inloggning
 ----------
@@ -184,6 +183,7 @@ Börja Om
 Med kommandot Börja Om kan man när man ringer till basen påbörja en ny
 inloggning utan att behöva ringa upp igen. Detta kommando bör vara
 begränsar så att endast sysop kan använda det.
+
 
 Kontroll av utmatning
 ---------------------

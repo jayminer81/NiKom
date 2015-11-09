@@ -1,23 +1,23 @@
 @database NiKom
 
 @node MAIN
-@title "NiKom © Niklas Lindholm 1992-1996, Tomas Kärki 1996-1998"
+@title "NiKom © Niklas Lindholm 1992-1996, 2015, Tomas Kärki 1996-1998"
 
-                   Dokumentation för NiKom v1.60
+                   Dokumentation för NiKom v1.61
           NiKom är © Tomas Kärki 1996-1998
-                   © Niklas Lindholm 1992-1996.
+                   © Niklas Lindholm 1992-1996, 2015
 
 OBS! NiKom kräver inte längre registering för att kunna användas
 utan begränsningar! OBS!
 
 @{"   Installation  " link "Installation.doc/Main"}
+@{"      Grunder    " link "Grunder.doc/Main"}
 @{"     Kommandon   " link "Kommandon.doc/Main"}
 @{"       ARexx     " link "ARexx.guide/Main"}
 @{"     Användare   " link "Användar.doc/Main"}
 @{"      Editorer   " link "Editorer.doc/Main"}
 @{"      FidoNet    " link "Fido.doc/Main"}
 @{"      Filareor   " link "Filareor.doc/Main"}
-@{"      Grunder    " link "Grunder.doc/Main"}
 @{"     Rexxtools   " link "RexxTools.doc/Main"}
 @{"       Möten     " link "Möten.doc/Main"}
 @{"      Övrigt     " link "Övrigt.doc/Main"}
@@ -42,7 +42,7 @@ Efter att installationen av NiKom är klar ska du göra följande:
 
 3. Kör igång Shell.
 
-3. Sätt stacken till minst 30000 bytes. (stack 30000)
+3. Sätt stacken till minst 50000 bytes. (stack 50000). 
 
 4. Kör nikserver (run nikserver)
 

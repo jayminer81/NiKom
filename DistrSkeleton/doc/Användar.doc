@@ -27,6 +27,7 @@ mötesnamn, gruppnamn, filnamn etc. Dvs, nästan allt kan förkortas. I
 stället för användarnamn går det även bra att skriva användarnumret om
 man vill det.
 
+
 Inloggning
 ----------
 När modemen har kopplat upp så kommer det fram en text, inloggningstexten.
@@ -75,6 +76,7 @@ tangent.
 Alla diskussioner sker i något som kallas för möten. Det finns olika möten
 för olika intresseområden och typer av diskussioner.
 
+
 Användande
 ----------
 För att se vilka möten som finns så ge kommandot 'Lista Möten'. Om det står
@@ -90,6 +92,7 @@ se vilket möte man befinner sig i så ger man kommandot 'Var'. Då får man
 antalet olästa texter så använder man kommandot 'Endast'.
 Skulle man sedan inte vilja vara medlem i ett möte längre så använder man
 kommandot 'Utträd'.
+
 
 Läsande av texter
 -----------------
@@ -142,7 +145,10 @@ alla olästa texter i alla möten. Om det inte finns några olästa texter
 längre så blir prompten '(Se) tiden'. Då får man bara fram vad klockan är
 och hur lång tid man har på sig innan man blir utloggad.
 
-Om man får upp en text som har kommentarer som man inte vill läsa så kan man använda kommandot 'Hoppa Över' för att hoppa över dessa. Vill man hoppa över alla texter som har samma ärende som den senast lästa texten så kan man ge kommandot 'Hoppa Ärende'.
+Om man får upp en text som har kommentarer som man inte vill läsa så kan 
+man använda kommandot 'Hoppa Över' för att hoppa över dessa. Vill man 
+hoppa över alla texter som har samma ärende som den senast lästa texten 
+så kan man ge kommandot 'Hoppa Ärende'.
 
 Om man har en hel del olästa texter i ett möte som man inte vill läsa just
 nu utan spara till senare så kan man ge kommandot 'Nästa Möte' för att få
@@ -237,6 +243,7 @@ Inget brev försvinner automatiskt från systemet utan användarna måste
 själva rensa i sina brevlådor med jämna mellanrum. Detta görs med
 kommandot 'Rensa Brev'
 
+
 Flera mottagare
 ---------------
 Ett brev kan ha flera mottagare för att på så sätt föra små mini-debatter
@@ -258,6 +265,7 @@ längre ned i denna text)
 
 Fullskärmseditorn kräver att användarens terminalprogram klarar av (och är
 inställt på) ANSI-emulering.
+
 
 Radeditorn
 ----------
@@ -297,7 +305,6 @@ Vill man inte spara texten så finns kommandona '!bort' och '!kasta'.
 
 Fullskärmseditorn
 -----------------
-
 Fullskärmseditorn är lite mer som vanliga editorer. Man kan flytta runt
 markören med piltangenterna och ändra bäst man vill. Om man vill radera
 allt från markören till slutet av raden så använder man Ctrl-K. Skulle man
@@ -335,7 +342,6 @@ en enda area. Om det kommer att finnas program till flera olika datorer så
 kan det vara bra att ha flera areor. För att bringa någon ordning bland
 filerna så används istället något som kallas för nycklar. På en fil kan man
 sedan sätta en eller flera nycklar.
-
 
 För att se vilka areor som finns så ger man kommandot 'Lista Areor', eller
 bara 'Areor'. För att sedan hoppa till en area så ger man kommandot
@@ -401,7 +407,6 @@ rent i sin privata filarea.
 
 Grupper
 =======
-
 En grupp är ett sätt att enkelt sammanföra ett ett antal användare som ska
 få tillgång till samma saker. Tex kan en användarförenings BBS ha en
 medlemsgrupp som gör att de som är med i gruppen får tillgång till vissa
@@ -418,16 +423,17 @@ vilka grupper en person är medlem i genom att använda kommandot 'Status'.
 
 Flaggorna
 =========
-
 I NiKom finns det ett antal flaggor som antingen kan vara avslagna eller
 påslagna. Kommandot 'Lista Flaggor' ger en lista över de som finns samt
 talar om om de är på eller avslagna. Man ändrar flaggor med kommandona
 'Slå På' och 'Slå Av'.
 
+
 Skyddad Status
 --------------
 Om denna flagga är påslagen så kan bara de som har tillräcklig status
 se adress och telefonuppgifter på en användare.
+
 
 Streckrad under ärendet
 -----------------------
@@ -435,6 +441,7 @@ Om denna flagga är påslagen så kommer det att skrivas ut en rad med streck
 under ärendet till varje text. Tex:
 Ärende: Hejsan hoppsan
 ----------------------
+
 
 ISO 8 bitars tecken
 -------------------
@@ -451,25 +458,30 @@ Normala Amiga-tecken (ISO 8559-1)    7-bitars svenska tecken (SF7, SIS-7)
           [                                    Ä
           \                                    Ö
 
+
 Ingen autohjälp
 ----------------
 Om denna flagga är påslagen så kommer inte den automatiska hjälptexten fram
 när man skrivit två felaktiga kommandon i rad.
+
 
 Fullskärmseditor
 ----------------
 Om denna flagga är påslagen så används NiKoms fullskärmseditor istället för
 radeditorn. (Se kapitlet om editorer)
 
+
 Automatisk Fillista
 ------------------
 Om denna flagga är påslagen så kommer det automatiskt upp en lista över nya
 filer vid lista nyheter.
 
+
 Mellanslag som paustangent
 --------------------------
 Om denna flagga är påslagen så kan mellanslag användas för att pausa
 utskriften precis som Ctrl-S.
+
 
 Lapp vid brev
 -------------
@@ -487,7 +499,6 @@ krävs det att denna flagga är påslagen.
 
 Användare
 =========
-
 Skulle man vilja få information om en viss användare så kan man använda
 kommandot 'Status'. Detta använder man även för att få information om sig
 själv. Tex hur många inloggningar man har gjort, hur många texter man har
@@ -499,15 +510,18 @@ inloggningar, statusnivå etc.
 Om man vill veta vilka användare som finns så kan man använda kommandot
 'Lista Användare'.
 
+
 Lista Senaste
 =============
 Med kommandot 'Lista Senaste' kan man se vilka som varit inloggade den
 senaste tiden och vad de har gjort för något.
 
+
 Info
 ====
 I de flesta baser finns det olika informationstexter upplagda. Dessa kan
 man få fram med kommandot 'Info'
+
 
 Pratstund med sysop
 ===================
@@ -515,10 +529,12 @@ Om man skulle vilja prata direkt med sysop så ska man använda kommandot
 'Ropa'. Då påkallas sysops uppmärksamhet och om han är tillgänglig (och
 vill prata) så svarar han.
 
+
 Tiden
 =====
 Kommandot 'Tiden' används för att få reda på vad klockan är, vilket datum
 det är samt hur lång systemtid man har kvar.
+
 
 Olika noder
 ===========
@@ -528,15 +544,18 @@ ungefär vad de gör.
 Skulle man sedan vilja säga något till någon som är inloggad samtidigt så
 finns kommandot 'Säg' att tillgå.
 
+
 System Info
 ===========
 Med kommandot 'SysInfo' så kan man få reda på en del om systemet. Bla
 vilket det högsta användarnumret är, högsta mötesnumret osv.
 
+
 Manualer
 ========
 Om man under inloggningen skulle vilja få reda på lite mer om hur ett
 kommando fungerar så rekommenderas kommandot 'Manual'.
+
 
 Profiles
 ========
@@ -547,12 +566,14 @@ kommandot 'Ändra Profile'. Vill man sedan titta på den finns kommandot
 'Visa Profile'. Vill man testköra sin profile kan man använda kommandot
 'Exekvera Profile'.
 
+
 Lappar
 ======
 Alla användare kan skapa en egen lapp. Denna lapp syns sist av allt när man
 tar status på en person. I denna kan man tex tala om att man är bortrest
 ett tag. För att editera sin lapp ger man kommandot 'Ändra Lapp'. Vill man
 ta bort sin lapp finns kommandot 'Radera Lapp'.
+
 
 Alias
 =====

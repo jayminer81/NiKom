@@ -6,18 +6,18 @@ Tilldelning
 Börja med att tilldela det logiska namnet "NiKom:" till katalogen som
 bildar roten för systemet.
 
-           assign NiKom: <enhet:katalog>
+           Assign NiKom: <enhet:katalog>
 
-tex        assign NiKom: dh0:NiKomBBS
+t.ex       Assign NiKom: DH0:NiKomBBS
 
 I denna katalog bör sedan det uppackade NiKom-arkivet ligga med bibehållen
-katalogstruktur.
+katalogstruktur. 
+
 
 Katalogkontroll
 ---------------
 I NiKom: förväntar sig systemet att följande underkataloger finns. En del
 ska redan finnas och en del måste skapas.
-
 
 DatoCfg   - Innehåller NiKoms datafiler (.dat) samt de olika
             konfigurationsfilerna (.cfg).
@@ -44,8 +44,8 @@ Privat    - Innehåller privata filareor. De användare som har en privat
 
 Users     - Innehåller all användardata.
 
-
 Kontrollera att dessa kataloger finns. Om inte, skapa dem.
+
 
 Övriga filer och kataloger
 --------------------------
@@ -63,6 +63,7 @@ med detta arkiv.
 För att kunna köra externa program via Fifo (se ARexx-kommandot 'runfifo')
 så krävs det att Fifo är installerat i systemet. Mer om detta står i
 manualen till Fifo som följer med det här arkivet.
+
 
 Skräddarsy systemet
 -------------------
@@ -94,6 +95,7 @@ det är som standard. Ta dig därför tid att ändra i dessa filer.
 
 Alla filer kan ändras senare, men det är bra att gå igenom de noga en gång
 innan basen startas upp.
+
 
 System.cfg
 ----------
@@ -152,7 +154,6 @@ alla fått upp:
 om de skrivit 'sl'. (Personligen skriver jag 'sl' för att logga ut).
 Sätts nu V=N så kan alla vanliga användare skriva 'sl' för att logga ut.
 Nisse får dock fortfarande upp båda kommandona, han kan ju utföra båda.
-
 
 Av fälten är N,#,O och S obligatoriska. Ett kommando kan tex definieras så
 här:
@@ -250,6 +251,7 @@ XSIZE=        Hur brett fönstret ska vara i antal pixels.
 NODEID=       Vilken id-sträng noden ska ha. Detta för att via NodeInfo()
               kunna hitta en specifik nod oavsett vilket nodnummer den har
               fått.
+
 
 Höghastighetsmodem
 ------------------
@@ -356,4 +358,9 @@ skapar en användare som har användarnumret 0 och som heter Sysop. Lösenord
 är 'sysop' (med små bokstäver). Skulle man någon gång vilja starta om hela
 systemet på nytt så kan man ta bort alla filer i katalogen Moten och sedan
 köra InitNiKom igen.
+
+Lösenordet som InitNikom sätter till Sysop-användaren kommer inte att vara
+krypterat så ifall man vill använda krypterade lösenord behöver man köra
+kommandot cryptpasswords som ligger i bin-katalogen innan man kan logga
+in.
 @endnode
