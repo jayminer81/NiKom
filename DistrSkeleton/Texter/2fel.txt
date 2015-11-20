@@ -11,8 +11,8 @@ Om det man skriver passar in på flera kommadon så kommer en lista upp på de
 kommandon man kunde ha menat.
 
 Även alla användarnamn, mötesnamn och flaggnamn går att förkorta. Så
-istället för att skriva 'Tomas Kärki' går det bra med 'to kä' eller
-Numret som du ser efter alla användarna(Jag har tex (#)0)
+istället för att skriva 'John Doe' går det bra med 'jo do' eller numret som
+du ser efter alla användare.
 
 I prompten står de alltid ett kommando. Med detta menas att om man bara
 trycker på <RETURN> utan att skriva något så kommer detta kommando att
@@ -21,5 +21,5 @@ utföras.
 Vill du ha ytterligare hjälp så kan du ge kommandot 'HJÄLP' eller '?' (båda
 två gör samma sak)
 
-skriv 'ropa' för att ropa på sysop.
+Skriv 'ropa' för att ropa på sysop.
 Om du inte vill få fram den här texten, skriv 'slå på Ingen'
