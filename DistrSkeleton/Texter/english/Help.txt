@@ -1,5 +1,4 @@
 
-
 NiKom is a KOM-system, that is mainly controlled by feeding it different
 commands. These commands are made up of either one or two words. To get
 a list of all commands, type 'LIST COMMANDS' at the prompt.
@@ -55,11 +54,12 @@ the forum all texts will be marked as unread.
 
 Other useful commands
 ---------------------
-List Commands    -  Lists all commands
-Page             -  Page the sysop
-Skip             -  Skip all comments to a text
-Mail <user>      -  Send a mail to the user
-Logout           -  Log out of the BBS
-Info             -  Display various informational texts
+LIST COMMANDS    -  Lists all commands
+PAGE             -  Page the sysop
+SKIP             -  Skip all comments to a text
+MAIL <user>      -  Send a mail to the user
+LOGOUT           -  Log out of the BBS
+INFO             -  Display various informational texts
 
 To pause output, press space.
+

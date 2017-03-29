@@ -1,4 +1,6 @@
+
 Welcome as a new user at My BBS!
 
 Enter your credentials below to register, and be vary that the
 password is case sensitive.
+

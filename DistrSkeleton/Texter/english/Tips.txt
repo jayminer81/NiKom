@@ -1,5 +1,4 @@
 
-
 All text numbers in NiKom are global. This makes it very easy to move
 texts between forums if a discussion derails. You then give the command
 '!MOVE <Forum>' in the line editor. (Ctrl-Q, MOVE <Forum> in the
@@ -36,3 +35,4 @@ info-file.
 
 You can define your own aliases. Instead of typing 'LIST FILES' you can 
 create an alias called 'F'. Type 'MANUAL ALIAS' for more information.
+

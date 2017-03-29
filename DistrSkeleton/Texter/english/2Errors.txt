@@ -1,5 +1,4 @@
 
-
 Hmm, you seem to be having problems. To do things on this BBS you give
 commands. These commands can be either one or two words. To display a
 list of all usable commands, type 'LIST COMMANDS'.
